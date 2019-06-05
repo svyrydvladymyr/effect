@@ -172,3 +172,19 @@
     transition: 2s
 }
 
+@media screen and (max-width:600px) {
+    .wrap{
+        width: 100%;
+        max-width: 1100px;
+        min-width: 390px;
+        margin: 100px auto;
+        padding: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        border: 5px solid #adadad;
+        background: #525252;
+        border-radius: 10px;
+        box-shadow: 0px 0px 8px #828282;
+    }
+}
